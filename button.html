@@ -1,0 +1,29 @@
+{{ define "button" }}
+<ul>
+<li><input type="submit" style="width:100%" name="change" value="主页"></li>
+<li><input type="submit" style="width:100%" name="change" value="学生信息列表"></li>
+<li><input type="submit" style="width:100%" name="change" value="学生信息排序"></li>
+<li>查询(ID):<input type="text" style="width:40%" name="ID">
+<input type="submit" name="change" value="查询"></li>
+<p><center>添加学生信息</center></p>
+<li>编号:<input type="text" name="Id"></li>
+<li>姓名:<input type="text" name="Name"></li>
+<li>专业:<input type="text" name="Major"></li>
+<li>性别:<input type="text" name="Sex"></li>
+<li>出生日期:<input type="text" name="Birthday"></li>
+<li>分数:<input type="text" name="Socre"></li>
+<li>备注:<input type="text" name="Note"></li>
+<input type="submit" style="width:100%" name="change"value="添加"></li>
+<p><center>修改学生信息</center></p>
+<li>修改的学生ID:<input type="text" style="width:40%" name="IDM"></li>
+<li>姓名:<input type="text" name="Namem"></li>
+<li>专业:<input type="text" name="Majorm"></li>
+<li>性别:<input type="text" name="Sexm"></li>
+<li>出生日期:<input type="text" name="Birthdaym"></li>
+<li>分数:<input type="text" name="Socrem"></li>
+<li>备注:<input type="text" name="Notem"></li>
+<li>修改<input type="submit" style="width:50%"name="change" value="修改"></li>
+<li>删除(ID):<input type="text" style="width:40%" name="IDD">
+<input type="submit" name="change" value="删除"></li>
+</ul>
+{{ end }}

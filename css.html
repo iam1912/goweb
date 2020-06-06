@@ -1,0 +1,76 @@
+{{ define "css"}}
+*{
+      margin: 0;
+      padding: 0;
+}
+#header{
+      width: 100%;
+      height: 100px;
+      background-color: #efefef;
+      text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+#contents{
+      display: flex;
+      height: 800px;
+      flex-wrap: wrap;
+}
+#nav {
+     width: 15%;
+     background-color:#d8c7a0;
+}
+.parentWrap{
+      width: 100%;
+      text-align: center;
+}
+.menuGroup {
+      border: 1px solid #FFF5EE;
+      background-color: #d8c7a0;
+}
+.groupTitle {
+      display: block;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 13px;
+}
+.menuGroup ul {
+      background-color: #FFFFFF;
+      display: none;
+}
+.ate {
+      border: solid 1px #d8c7a0;
+}
+#section {
+      width: 85%;
+      text-algin: center;
+}
+.sections {
+      padding-top: 30px;
+      padding-left: 100px;
+}
+#footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding:20px;
+    text-align: center; 	 
+}
+<<!--table {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+}
+table td {
+     border-left: 1px solid;
+     border-top: 1px solid;
+}-->
+li {
+     list-style-type: none;
+     text-align: center;
+     line-height: 20px;
+     border-bottom: 1px solid;
+     border: 1px solid #d8c7a0;
+}
+{{end}}

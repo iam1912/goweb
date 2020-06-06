@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>学生成绩管理系统</title>
+<!--script src="jquery-3.4.1.js"></script>
+<script>
+    $(function () {
+        $('.parentWrap .menuGroup').click(function () {
+            $(this).children('ul').show().parent().siblings('li').children('ul').hide();
+        });
+    });
+</script>-->
+<style>
+{{ template "css" }}
+</style>
+</head>
+<body>
+<form action="/StuWeb" method="post">
+<div id="header">
+<h1>学生成绩管理系统</h1>
+</div>
+<div id="contents">
+<div id="nav">
+<!--ul class="parentWrap">
+<li class="menuGroup">
+<span class="groupTitle">信息管理</span>
+</li-->
+{{ template "button" }}
+</div>
+<div id="section">
+<p><center>{{.}}</center></p>
+<div class="sections">
+</div>
+</div>
+</div>
+<div id="footer">
+<p>学生成绩管理系统</p>
+</div>
+</body>
+</html>
